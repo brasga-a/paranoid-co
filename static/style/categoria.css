@@ -1,0 +1,27 @@
+
+.categorias{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+  width: 100%;
+}
+
+.categorias__secao{
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  text-align: left;
+  color: var(--secondary-color);
+  font-family: var(--primary-font);
+}
+
+.categorias__secao p{
+  padding: 2px 0;
+  color: var(--secondary-color-shadow);
+}
+
+.categorias__secao p:hover{
+  color: var(--secondary-color);
+}
